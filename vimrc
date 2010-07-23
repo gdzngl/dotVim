@@ -11,3 +11,12 @@ set guifont=ProggyCleanTT:h12:cDEFAULT
 set t_Co=256
 colorscheme ir_black
 set background=dark
+
+" Enable syntax highlighting
+syntax enable
+
+" datestamp abbreviations
+:iab dts <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
+:iab ddss <C-R>=strftime("%Y-%m-%d")<CR>
+:iab ddts #----------<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>----------
+:iab ttss :<C-R>=strftime("%Y-%m-%d %H.%M.%S")<CR>:
