@@ -20,3 +20,5 @@ syntax enable
 :iab ddss <C-R>=strftime("%Y-%m-%d")<CR>
 :iab ddts #----------<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>----------
 :iab ttss :<C-R>=strftime("%Y-%m-%d %H.%M.%S")<CR>:
+
+set runtimepath=~/.vim,$VIMRUNTIME
