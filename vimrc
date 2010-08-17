@@ -1,3 +1,6 @@
+"Set runtime because it doesn't always work on windows
+set runtimepath=~/.vim,$VIMRUNTIME
+
 " Enable all vim features
 set nocompatible
 
@@ -21,7 +24,6 @@ syntax enable
 :iab ddts #----------<C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>----------
 :iab ttss :<C-R>=strftime("%Y-%m-%d %H.%M.%S")<CR>:
 
-set runtimepath=~/.vim,$VIMRUNTIME
 
 " Comment abbreviations
 :ab === ==============================================================================
@@ -30,4 +32,8 @@ set runtimepath=~/.vim,$VIMRUNTIME
 :ab ``` ``````````````````````````````````````````````````````````````````````````````
 :ab ### ##############################################################################
 
+
+" For Ruby
+au Filetype ruby setlocal ts=8|setlocal sw=2|setlocal softtabstop=2
+au Filetype ruby setlocal expandtab
 
