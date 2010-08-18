@@ -1,5 +1,10 @@
 my .vim folder
 ==============
+2010-08-18 11:19:16 Commands to set up vimrc link
+Linux:
+  ln -s .vim/vimrc .vimrc
+Windows:
+  mklink .vimrc .vim\vimrc
 
 2010-08-03 14:44:24 Added [supertab](http://www.vim.org/scripts/script.php?script_id=1643)
 
