@@ -1,5 +1,9 @@
 my .vim folder
 ==============
+
+2010-08-27 10:56:19 Added [Markdown syntax file](http://github.com/plasticboy/vim-markdown.git)
+
+
 2010-08-18 11:19:16 Commands to set up vimrc link
 Linux:
   ln -s .vim/vimrc .vimrc
