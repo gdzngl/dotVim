@@ -35,5 +35,5 @@ syntax enable
 
 " For Ruby
 au Filetype ruby setlocal ts=8|setlocal sw=2|setlocal softtabstop=2
-au Filetype ruby setlocal expandtab
+au Filetype ruby setlocal expandtab autoindent
 
