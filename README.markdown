@@ -1,6 +1,8 @@
 my .vim folder
 ==============
 
+2010-08-30 12:31:23 Added [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658)
+
 2010-08-27 10:56:19 Added [Markdown syntax file](http://github.com/plasticboy/vim-markdown.git)
 
 
