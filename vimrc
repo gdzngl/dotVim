@@ -17,6 +17,12 @@ set background=dark
 
 " Enable syntax highlighting
 syntax enable
+" Set shiftwidth for better indenting
+set smartindent
+set autoindent
+set expandtab
+set tabstop=2
+set shiftwidth=2
 
 " datestamp abbreviations
 :iab dts <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
@@ -34,9 +40,8 @@ syntax enable
 
 
 " For Ruby
-au Filetype ruby setlocal ts=8|setlocal sw=2|setlocal softtabstop=2
-au Filetype ruby setlocal expandtab
+au Filetype ruby setlocal ts=2|setlocal sw=2|setlocal softtabstop=2
+au Filetype ruby setlocal expandtab autoindent
 
-
-"Fold method
+" Foldmethod
 set foldmethod=indent
