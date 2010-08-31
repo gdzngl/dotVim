@@ -43,3 +43,5 @@ set shiftwidth=2
 au Filetype ruby setlocal ts=2|setlocal sw=2|setlocal softtabstop=2
 au Filetype ruby setlocal expandtab autoindent
 
+" Foldmethod
+set foldmethod=indent
