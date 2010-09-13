@@ -21,8 +21,8 @@ syntax enable
 set smartindent
 set autoindent
 set expandtab
-set tabstop=2
-set shiftwidth=2
+"set tabstop=2
+"set shiftwidth=2
 
 " datestamp abbreviations
 :iab dts <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
@@ -42,7 +42,19 @@ set shiftwidth=2
 " For Ruby
 au Filetype ruby setlocal ts=2|setlocal sw=2|setlocal softtabstop=2
 au Filetype ruby setlocal expandtab autoindent
+
+" For Python
+"au Filetype python setlocal ts=4|setlocalsw=4|setlocal softtabstop=4
+"au Filetype python setlocal expandtab autoindent
+
 filetype plugin indent on 
 
 " Foldmethod
 set foldmethod=indent
+
+" Highlight long lines
+" http://vim.wikia.com/wiki/Highlight_long_lines
+:au BufWinEnter *.rb let w:m1=matchadd('Search', '\%<81v.\%>77v', -1)
+:au BufWinEnter *.rb let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+
+

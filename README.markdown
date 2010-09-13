@@ -1,5 +1,6 @@
 my .vim folder
 ==============
+2010-09-13 15:34:46 Added [python.vim](http://www.vim.org/scripts/script.php?script_id=790)
 
 2010-08-30 12:31:23 Added [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658)
 
