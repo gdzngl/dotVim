@@ -32,11 +32,11 @@ set expandtab
 
 
 " Comment abbreviations
-:ab === ==============================================================================
-:ab --- ------------------------------------------------------------------------------
-:ab ~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-:ab ``` ``````````````````````````````````````````````````````````````````````````````
-:ab ### ##############################################################################
+:ab ===== ==============================================================================
+:ab ----- ------------------------------------------------------------------------------
+:ab ~~~~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:ab ````` ``````````````````````````````````````````````````````````````````````````````
+:ab ##### ##############################################################################
 
 
 " For Ruby
@@ -44,8 +44,8 @@ au Filetype ruby setlocal ts=2|setlocal sw=2|setlocal softtabstop=2
 au Filetype ruby setlocal expandtab autoindent
 
 " For Python
-"au Filetype python setlocal ts=4|setlocalsw=4|setlocal softtabstop=4
-"au Filetype python setlocal expandtab autoindent
+au Filetype python setlocal ts=4|setlocal sw=4|setlocal softtabstop=4
+au Filetype python setlocal expandtab autoindent
 
 filetype plugin indent on 
 
@@ -56,5 +56,7 @@ set foldmethod=indent
 " http://vim.wikia.com/wiki/Highlight_long_lines
 :au BufWinEnter *.rb let w:m1=matchadd('Search', '\%<81v.\%>77v', -1)
 :au BufWinEnter *.rb let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+:au BufWinEnter *.py let w:m1=matchadd('Search', '\%<81v.\%>77v', -1)
+:au BufWinEnter *.py let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
 
 
