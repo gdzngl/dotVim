@@ -21,8 +21,8 @@ syntax enable
 set smartindent
 set autoindent
 set expandtab
-"set tabstop=2
-"set shiftwidth=2
+set tabstop=2
+set shiftwidth=2
 
 " datestamp abbreviations
 :iab dts <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
