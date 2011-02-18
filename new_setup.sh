@@ -5,4 +5,5 @@ git clone https://github.com/tpope/vim-vividchalk.git
 git clone https://github.com/ervandew/supertab.git
 git clone https://github.com/tpope/vim-markdown.git
 git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/ervandew/taglisttoo.git
+git clone https://github.com/vim-scripts/taglist.vim.git
+git clone https://github.com/tpope/vim-fugitive.git
