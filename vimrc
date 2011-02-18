@@ -29,4 +29,4 @@ set guifont=ProggyCleanTT:h12:cDEFAULT
 
 filetype plugin indent on 
 
-colorscheme ir_black
+colorscheme vividchalk
