@@ -28,3 +28,5 @@ set guifont=ProggyCleanTT:h12:cDEFAULT
 :iab ttss :<C-R>=strftime("%Y-%m-%d %H.%M.%S")<CR>:
 
 filetype plugin indent on 
+
+colorscheme ir_black
