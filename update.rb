@@ -23,6 +23,7 @@ repos = ["https://github.com/tpope/vim-vividchalk.git",
   "https://github.com/tpope/vim-haml.git",
   "https://github.com/tpope/vim-surround.git",
   "https://github.com/tpope/vim-endwise.git",
+  "https://github.com/vim-scripts/TwitVim.git",
   "https://github.com/scrooloose/nerdcommenter.git" ]
 
 for item in repos do
