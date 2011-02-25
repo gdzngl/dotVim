@@ -1,22 +1,6 @@
 my .vim folder
 ==============
-2010-09-13 15:34:46 Added [python.vim](http://www.vim.org/scripts/script.php?script_id=790)
 
-2010-08-30 12:31:23 Added [NERD tree](http://www.vim.org/scripts/script.php?script_id=1658)
+Since all my plugins are managed by [pathogen](1) this is just my vimrc with some basic settings and the script that updates the repositories I keep in the bundle directory.
 
-2010-08-27 10:56:19 Added [Markdown syntax file](http://github.com/plasticboy/vim-markdown.git)
-
-
-2010-08-18 11:19:16 Commands to set up vimrc link
-Linux:
-  ln -s .vim/vimrc .vimrc
-Windows:
-  mklink .vimrc .vim\vimrc
-
-2010-08-03 14:44:24 Added [supertab](http://www.vim.org/scripts/script.php?script_id=1643)
-
-2010-07-23 16:17:56 - Added [git-vim](http://github.com/motemen/git-vim)  Had to add runtime path to .vimrc to get vim to see plugins on Windows.  Also interesting, this only works if you open a file directly with vim, not with :e.  Otherwise git fails because it doesn't think it's in the repository.  I'm going to test at home on my mac to see if this is a Windows issue or a vim issue.
-
-
-2010-07-23 - Added ir_black colorscheme taken from http://blog.infinitered.com/entries/show/8
-
+[1] https://github.com/tpope/vim-pathogen 
