@@ -10,7 +10,8 @@ files = File.join("bundle", "*")
 allfiles = Dir.glob(files)
 
  
-repos = ["https://github.com/tpope/vim-vividchalk.git",
+repos = [
+  "https://github.com/tpope/vim-vividchalk.git",
   "https://github.com/wgibbs/vim-irblack.git",
   "https://github.com/wgibbs/vim-irblack.git", 
   "https://github.com/tpope/vim-vividchalk.git",
@@ -24,7 +25,9 @@ repos = ["https://github.com/tpope/vim-vividchalk.git",
   "https://github.com/tpope/vim-surround.git",
   "https://github.com/tpope/vim-endwise.git",
   "https://github.com/vim-scripts/TwitVim.git",
-  "https://github.com/scrooloose/nerdcommenter.git" ]
+  "git://git.wincent.com/command-t.git",
+  "https://github.com/scrooloose/nerdcommenter.git"
+]
 
 for item in repos do
   plugin = item.split("/")[-1]
