@@ -27,6 +27,7 @@ repos = [
   "https://github.com/vim-scripts/TwitVim.git",
   "git://git.wincent.com/command-t.git",
   "https://github.com/altercation/vim-colors-solarized.git",
+  "https://github.com/mrtazz/simplenote.vim.git",
   "https://github.com/scrooloose/nerdcommenter.git"
 ]
 
