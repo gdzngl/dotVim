@@ -35,5 +35,3 @@ colorscheme vividchalk
 
 set fdm=indent
 
-let g:notes_directory = '~/Dropbox/Elements/Notes'
-let g:notes_suffix = '.txt'
