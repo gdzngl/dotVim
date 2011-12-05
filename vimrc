@@ -35,3 +35,5 @@ colorscheme vividchalk
 
 set fdm=indent
 
+" set hidden for LustyExplorer
+set hidden
