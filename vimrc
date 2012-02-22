@@ -35,5 +35,15 @@ colorscheme vividchalk
 
 set fdm=indent
 
-" set hidden for LustyExplorer
-set hidden
+"===================================================================
+" The three lines below are necessary for VimOrganizer to work right
+" ==================================================================
+let g:ft_ignore_pat = '\.org'
+filetype plugin indent on
+" and then put these lines in vimrc somewhere after the line above
+au! BufRead,BufWrite,BufWritePost,BufNewFile *.org 
+au BufEnter *.org            call org#SetOrgFileType()
+let g:org_capture_file = '~/Dropbox/Org/mycaptures.org'
+command! OrgCapture :call org#CaptureBuffer()
+command! OrgCaptureFile :call org#OpenCaptureFile()
+let g:org_agenda_select_dirs=["~/Dropbox/Org"]
