@@ -25,9 +25,10 @@ repos = [
   "https://github.com/tpope/vim-pathogen.git",
   #"https://github.com/sjbach/lusty.git",
   "https://github.com/mrtazz/simplenote.vim.git",
-  "https://github.com/hsitz/VimOrganizer.git",
-  "https://github.com/vim-scripts/calendar.vim--Matsumoto.git",
-  "https://github.com/vim-scripts/utl.vim.git",
+  #"https://github.com/hsitz/VimOrganizer.git",
+  #"https://github.com/vim-scripts/calendar.vim--Matsumoto.git",
+  #"https://github.com/vim-scripts/utl.vim.git",
+  "https://github.com/davidoc/taskpaper.vim.git",
   "https://github.com/scrooloose/nerdcommenter.git"
 ]
 
