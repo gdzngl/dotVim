@@ -12,6 +12,7 @@ allfiles = Dir.glob(files)
  
 repos = [
   "https://github.com/tpope/vim-vividchalk.git",
+  "https://github.com/janx/vim-rubytest.git",
   "https://github.com/ervandew/supertab.git",
   "https://github.com/tpope/vim-markdown.git",
   "https://github.com/scrooloose/nerdtree.git",
@@ -20,15 +21,11 @@ repos = [
   #"https://github.com/tpope/vim-haml.git",
   #"https://github.com/tpope/vim-surround.git",
   "https://github.com/tpope/vim-endwise.git",
-  #"https://github.com/vim-scripts/TwitVim.git",
-  #"git://git.wincent.com/command-t.git",
   "https://github.com/tpope/vim-pathogen.git",
-  #"https://github.com/sjbach/lusty.git",
   "https://github.com/mrtazz/simplenote.vim.git",
-  #"https://github.com/hsitz/VimOrganizer.git",
-  #"https://github.com/vim-scripts/calendar.vim--Matsumoto.git",
-  #"https://github.com/vim-scripts/utl.vim.git",
   "https://github.com/davidoc/taskpaper.vim.git",
+  "https://github.com/Townk/vim-autoclose.git",
+  "https://github.com/tpope/vim-speeddating.git",
   "https://github.com/scrooloose/nerdcommenter.git"
 ]
 
