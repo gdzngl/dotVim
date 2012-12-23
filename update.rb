@@ -23,11 +23,10 @@ repos = [
   #"https://github.com/tpope/vim-surround.git",
   "https://github.com/tpope/vim-endwise.git",
   "https://github.com/tpope/vim-pathogen.git",
-  "https://github.com/mrtazz/simplenote.vim.git",
   "https://github.com/davidoc/taskpaper.vim.git",
   "https://github.com/Townk/vim-autoclose.git",
   "https://github.com/tpope/vim-speeddating.git",
-  "https://github.com/kakkyz81/evervim.git",
+  "https://github.com/vim-scripts/taglist.vim.git",
   "https://github.com/scrooloose/nerdcommenter.git"
 ]
 
