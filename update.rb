@@ -11,7 +11,7 @@ allfiles = Dir.glob(files)
 
  
 repos = [
-  "https://github.com/tpope/vim-vividchalk.git",
+  #"https://github.com/tpope/vim-vividchalk.git",
   "https://github.com/altercation/vim-colors-solarized.git",
   "https://github.com/janx/vim-rubytest.git",
   "https://github.com/ervandew/supertab.git",
@@ -24,6 +24,8 @@ repos = [
   "https://github.com/davidoc/taskpaper.vim.git",
   "https://github.com/Townk/vim-autoclose.git",
   "https://github.com/tpope/vim-speeddating.git",
+  "https://github.com/kien/ctrlp.vim.git",
+  "https://github.com/vim-scripts/taglist.vim.git",
   "https://github.com/scrooloose/nerdcommenter.git"
 ]
 
