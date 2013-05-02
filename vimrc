@@ -18,8 +18,8 @@ set shiftwidth=2
 
 " set font for windows gui
 " set guifont=Courier_New:h10:cDEFAULT
-" set guifont=ProggyCleanTT:h12:cDEFAULT
-set guifont=Consolas:h10:cDEFAULT
+set guifont=ProggyCleanTT:h12:cDEFAULT
+" set guifont=Consolas:h10:cDEFAULT
 
 " datestamp abbreviations
 :iab dts <C-R>=strftime("%Y-%m-%d %H:%M:%S")<CR>
@@ -30,8 +30,8 @@ set guifont=Consolas:h10:cDEFAULT
 filetype plugin indent on 
 
 set background=dark
-colorscheme solarized
-"colorscheme vividchalk
+" colorscheme solarized
+colorscheme vividchalk
 
 set fdm=indent
 
